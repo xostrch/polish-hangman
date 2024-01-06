@@ -1,0 +1,103 @@
+:root{
+    --color-dark: #1d0060;
+    --color-light: #a8adff;
+}
+*{
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 900;
+}
+body{
+    background: var(--color-light);
+    background: linear-gradient(
+        to top right,
+        var(--color-dark),
+        var(--color-light)
+        );
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+}
+
+#main{
+    width:80%;
+    height:80%;
+    background: rgba(0,0,0,0.4);
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#slowo{
+    font-size: 65px;
+    text-align: center;
+    padding: 1.5%;
+}
+
+#obraz{
+    height: 800px;
+    width: 48%;
+    float: left;
+    margin-left: 1.5%;
+}
+
+img{
+    height: 800px;;
+    width: 1050px;
+}
+
+#alfabet{
+    width:48%;
+    height: 800px;
+    float: right;
+    margin: 0;
+}
+
+.litera{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.2);
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.litera:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    background: rgba(0,0,0,0.1);
+}
+
+#by{
+    float: right;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.won{
+    font-size: 80px;
+    margin-top: 25%;
+    text-align: center;
+}
+
+#word{
+    font-size: 50px;
+}
+
+#again{
+    padding: 20px;
+    font-size: 35px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+#again:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
